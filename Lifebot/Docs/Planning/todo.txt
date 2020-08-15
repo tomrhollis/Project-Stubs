@@ -1,0 +1,90 @@
+
+* fill this out
+
+
+Setup
+ - Database connection
+   x Sqlite
+   x Entity framework?
+       Scaffold-DbContext "Data Source=D:\\LifeBot.db;" Microsoft.EntityFrameworkCore.Sqlite -OutputDir Models
+   x test writes
+ x Configuration file or table
+ x Telegram connection
+   x Basic in/out
+
+
+Users
+ - Single user (me)
+   - Base account
+   x Connected text accounts (just TG right now)
+ - Multiple single users
+ - Groups
+
+Tasks
+ - Without Time
+ - One Time
+ - Recurring
+ - Saved/Randomly Recurring
+ - Times Relative to Something Else
+ - Store Costs in Time & Money
+ - Priority Categories
+ - Shared
+
+Lists
+ - Individual
+ - Connected to a Task
+ - Shared (anyone on the task can edit)
+ - Close out with optional price & split
+
+Expenses
+ - Purchases
+ - Bills
+ - Shared Purchases & Bills
+ - Interest Handlings
+ - Settling Accounts
+   - Time to Money Conversion
+
+Inventory
+ - Store Items (Manual Add)
+ - Add from Purchase
+ - Recurring Maintenance Tasks
+ - Add from Barcode (with lookup)
+ - Store Documents
+ - Asset Worth Estimation (based on Amazon/Ebay)
+
+Budgeting
+ - Income
+ - Expense Tracking (Categories)
+ - Monthly Planning (50/30/20)
+ - Goals
+ - Goal Projection
+ - Asset Liquidation Assistant (based on inventory)
+
+Personal Trainer
+ - Calories In
+ - Calories Out
+ - Weight Tracking
+ - Recommendations
+
+Stat Monitor
+ - Mental Health Checkins
+ - Include Personal Trainer data
+ - Location & Weather Correlations
+ - Custom Tracking & Correlating
+
+Mobile Apps
+ - Xamarin Project
+ - Android
+ - iOS
+ - Store Backup on Personal Server
+ - Run a secure central server for backups
+
+Sync data between people with different servers
+
+Home Automation (probably not actually in this project)
+ - Lights on/off based on time
+ - Light color based on time
+ - Windows/AC/Heat based on temperature
+ - Humidifiers/Dehumidifiers/Windows based on humidity
+
+
