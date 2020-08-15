@@ -1,9 +1,6 @@
 
-* fill this out
-
-
 Setup
- - Database connection
+ x Database connection
    x Sqlite
    x Entity framework?
        Scaffold-DbContext "Data Source=D:\\LifeBot.db;" Microsoft.EntityFrameworkCore.Sqlite -OutputDir Models
@@ -12,13 +9,10 @@ Setup
  x Telegram connection
    x Basic in/out
 
-
-Users
- - Single user (me)
-   - Base account
+User Account Stub
+ x Single user (me)
+   x Base account
    x Connected text accounts (just TG right now)
- - Multiple single users
- - Groups
 
 Tasks
  - Without Time
@@ -29,6 +23,16 @@ Tasks
  - Store Costs in Time & Money
  - Priority Categories
  - Shared
+
+Users (Circle Back)
+ - Create user from interaction with bot
+   - Includes general user creation method
+ - Groups
+   - Includes general group creation method
+
+Configuration (Circle Back)
+ - Configuration loading method
+ - Configuration saving method
 
 Lists
  - Individual
@@ -73,6 +77,7 @@ Stat Monitor
  - Custom Tracking & Correlating
 
 Mobile Apps
+ - Connection string data source to relative path
  - Xamarin Project
  - Android
  - iOS
