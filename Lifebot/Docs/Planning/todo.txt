@@ -3,7 +3,7 @@ Setup
  x Database connection
    x Sqlite
    x Entity framework?
-       Scaffold-DbContext "Data Source=D:\\LifeBot.db;" Microsoft.EntityFrameworkCore.Sqlite -OutputDir Models
+       Scaffold-DbContext -Force "Data Source=D:\\LifeBot.db;" Microsoft.EntityFrameworkCore.Sqlite -OutputDir Models
    x test writes
  x Configuration file or table
  x Telegram connection
@@ -15,8 +15,8 @@ User Account Stub
    x Connected text accounts (just TG right now)
 
 Tasks
- - Without Time
- - One Time
+ - One Time, No Due Date
+ - With Due Date 
  - Recurring
  - Saved/Randomly Recurring
  - Times Relative to Something Else

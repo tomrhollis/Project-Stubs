@@ -12,5 +12,6 @@ namespace LifeBot.Models
         public string TxtChannel { get; set; }
 
         public virtual TxtProviders TxtProvider { get; set; }
+        public virtual Users User { get; set; }
     }
 }

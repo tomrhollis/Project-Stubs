@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Telegram.Bot;
 using Telegram.Bot.Args;
+using Telegram.Bot.Types.ReplyMarkups;
 
 namespace LifeBot
 {
@@ -23,7 +24,6 @@ namespace LifeBot
             bot.StartReceiving();
             Console.ReadLine();
             bot.StopReceiving();
-
             /*
             Users test = db.Users.Where(u=>u.UserId == 1l).Single();
             Console.WriteLine("User: " + test.UserId + " - " + test.UserFamily + ", " + test.UserGiven);
@@ -34,13 +34,31 @@ namespace LifeBot
         }
 
         private static void readMessage(object sender, MessageEventArgs e)
-        {
+        {            
             if (e.Message.Type == Telegram.Bot.Types.Enums.MessageType.Text)
             {
+                string[] msgText = e.Message.Text.ToLower().Split(' ');
+                switch (msgText[0]) {
+                    case "task":
+                        ProcessTaskMessageAsync(msgText);
+                        break;
+                    default:
+                        break;
+                }
+
+
+
                 Console.WriteLine("Sender: " + e.Message.Chat.Id + " Message: " + e.Message.Text);
                 bot.SendTextMessageAsync(e.Message.Chat.Id, " I hear you man");
             }
                 
+        }
+
+        private /*async*/ static string ProcessTaskMessageAsync(string[] msgText)
+        {
+            string reply = "";
+
+            return reply;
         }
     }
 }

@@ -9,5 +9,8 @@ namespace LifeBot.Models
         public long? UserId { get; set; }
         public string GrpMemberLabel { get; set; }
         public long GroupId { get; set; }
+
+        public virtual Groups Group { get; set; }
+        public virtual Users User { get; set; }
     }
 }
