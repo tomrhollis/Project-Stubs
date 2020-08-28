@@ -6,4 +6,4 @@ Current codename: Lifebot, but this is 100% temporary as that's already a thing 
 
 ## License
 
-The source is open for now as a portfolio entry, but it is not free to be copied, forked, or used in other projects (assuming it gets to the point that others would find it that useful).  I may loosen this up in the future but for now I want to reserve rights just in case.
+The source is readable for now as a portfolio entry, but it is not free to be copied, forked, or used in other projects (assuming it gets to the point that others would find it that useful).  I may loosen this up in the future but for now I want to reserve rights just in case.
