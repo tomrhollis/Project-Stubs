@@ -1,18 +1,18 @@
 
 Setup
- x Database connection
-   x Sqlite
-   x Entity framework?
-       Scaffold-DbContext -Force "Data Source=D:\\LifeBot.db;" Microsoft.EntityFrameworkCore.Sqlite -OutputDir Models
-   x test writes
- x Configuration file or table
- x Telegram connection
-   x Basic in/out
+ - Database connection
+   - Sqlite
+   - Entity framework?
+       Scaffold-DbContext -Force "Data Source=D:\\SanchoPanther.db;" Microsoft.EntityFrameworkCore.Sqlite -OutputDir Models
+   - test writes
+ - Configuration file or table
+ - Telegram connection
+   - Basic in/out
 
 User Account Stub
- x Single user (me)
-   x Base account
-   x Connected text accounts (just TG right now)
+ - Single user (me)
+   - Base account
+   - Connected text accounts (just TG right now)
 
 Tasks
  - One Time, No Due Date
